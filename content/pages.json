@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "pg-1",
+    "path": "/home",
+    "type": "page",
+    "title": "Home",
+    "seoTitle": "Painters Inner West | Residential & Commercial Painting | Lic. 315254C",
+    "seoDescription": "Painters Inner West — licensed, insured painters with 20+ years across Sydney’s Inner West. Residential, commercial, strata & heritage painting. Fixed-price quotes. Call 0474 164 221.",
+    "layout": "mockup",
+    "headerPartId": "header-1",
+    "footerPartId": "footer-1",
+    "status": "draft",
+    "updatedAt": "2026-08-08T06:32:28.581Z",
+    "updatedBy": "derek",
+    "createdAt": "2026-08-08T06:32:28.581Z",
+    "createdBy": "derek"
+  }
+]
