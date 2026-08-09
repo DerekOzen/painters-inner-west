@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "pg-1",
+    "path": "/home",
+    "type": "page",
+    "title": "Home",
+    "seoTitle": "Painters Inner West | Licensed, Insured Local Painters",
+    "seoDescription": "Licensed, insured Inner West painters with 20+ years’ experience — residential, commercial, strata & heritage. Fixed-price quotes. Call 0474 164 221.",
+    "layout": "mockup",
+    "headerPartId": "header-1",
+    "footerPartId": "footer-1",
+    "status": "draft",
+    "updatedAt": "2026-08-09T09:31:45.025Z",
+    "updatedBy": "derek",
+    "createdAt": "2026-08-09T09:31:45.025Z",
+    "createdBy": "derek"
+  }
+]
