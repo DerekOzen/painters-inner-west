@@ -35,7 +35,7 @@
   {
     "id": "pg-3",
     "path": "/commercial-painters-inner-west-offices-shops-warehouses-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Commercial Painters Inner West | Offices, Shops & Warehouses | Lic. 315254C",
     "seoTitle": "Commercial Painters Inner West | Offices, Shops & Warehouses | Lic. 315254C",
     "seoDescription": "Commercial painters for Inner West offices, shops, warehouses and retail fit-outs — painted after hours around your trading, fully insured. Fixed-price quotes. Call 0474 164 221.",
@@ -45,7 +45,7 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
@@ -67,7 +67,7 @@
   {
     "id": "pg-5",
     "path": "/decorative-specialty-finishes-inner-west-venetian-plaster-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Decorative & Specialty Finishes Inner West | Venetian Plaster | Lic. 315254C",
     "seoTitle": "Decorative & Specialty Finishes Inner West | Venetian Plaster | Lic. 315254C",
     "seoDescription": "Decorative and specialty finishes across the Inner West — Venetian plaster, polished plaster, limewash, microcement and feature finishes applied by hand. Fixed-price quotes. Call 0474 164 221.",
@@ -77,13 +77,13 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
     "id": "pg-6",
     "path": "/exterior-painters-inner-west-exterior-house-painting-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Exterior Painters Inner West | Exterior House Painting | Lic. 315254C",
     "seoTitle": "Exterior Painters Inner West | Exterior House Painting | Lic. 315254C",
     "seoDescription": "Exterior painters for Inner West homes — weatherboard, render, brick, fascias and gutters protected against Sydney weather. Fixed-price quotes. Call 0474 164 221.",
@@ -93,7 +93,7 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
@@ -131,7 +131,7 @@
   {
     "id": "pg-9",
     "path": "/heritage-painters-inner-west-federation-victorian-homes-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Heritage Painters Inner West | Federation & Victorian Homes | Lic. 315254C",
     "seoTitle": "Heritage Painters Inner West | Federation & Victorian Homes | Lic. 315254C",
     "seoDescription": "Heritage painters for Inner West Federation, Victorian and period homes — breathable systems, lead-safe practices and conservation-sympathetic colours. Fixed-price quotes. Call 0474 164 221.",
@@ -141,7 +141,7 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
@@ -163,7 +163,7 @@
   {
     "id": "pg-11",
     "path": "/interior-painters-inner-west-walls-ceilings-trims-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Interior Painters Inner West | Walls, Ceilings & Trims | Lic. 315254C",
     "seoTitle": "Interior Painters Inner West | Walls, Ceilings & Trims | Lic. 315254C",
     "seoDescription": "Interior painters for Inner West homes — walls, ceilings, trims and feature walls with low-dust prep, protected furniture and sharp lines. Fixed-price quotes. Call 0474 164 221.",
@@ -173,7 +173,7 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
@@ -195,7 +195,7 @@
   {
     "id": "pg-13",
     "path": "/painting-heritage-homes-in-the-inner-west-painters-inner-west",
-    "type": "page",
+    "type": "service",
     "title": "Painting Heritage Homes in the Inner West | Painters Inner West",
     "seoTitle": "Painting Heritage Homes in the Inner West | Painters Inner West",
     "seoDescription": "A practical guide to painting Federation and Victorian heritage homes in Sydney’s Inner West — breathable systems, lead-paint safety, heritage colours and what to avoid.",
@@ -205,7 +205,7 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
@@ -275,7 +275,7 @@
   {
     "id": "pg-18",
     "path": "/residential-painters-inner-west-house-painting-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Residential Painters Inner West | House Painting | Lic. 315254C",
     "seoTitle": "Residential Painters Inner West | House Painting | Lic. 315254C",
     "seoDescription": "Licensed residential painters for Inner West homes — interior & exterior house painting with meticulous prep and a lasting finish. Fixed-price quotes. Call 0474 164 221.",
@@ -285,13 +285,13 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
     "id": "pg-19",
     "path": "/roof-painting-restoration-inner-west-tile-metal-roofs-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Roof Painting & Restoration Inner West | Tile & Metal Roofs | Lic. 315254C",
     "seoTitle": "Roof Painting & Restoration Inner West | Tile & Metal Roofs | Lic. 315254C",
     "seoDescription": "Roof painting and restoration across the Inner West — tile and metal (Colorbond) roofs cleaned, repaired, re-pointed and recoated. Fixed-price quotes. Call 0474 164 221.",
@@ -301,7 +301,7 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
@@ -339,7 +339,7 @@
   {
     "id": "pg-22",
     "path": "/strata-painters-inner-west-apartment-common-property-painting-lic-315254c",
-    "type": "page",
+    "type": "service",
     "title": "Strata Painters Inner West | Apartment & Common Property Painting | Lic. 315254C",
     "seoTitle": "Strata Painters Inner West | Apartment & Common Property Painting | Lic. 315254C",
     "seoDescription": "Strata painters for Inner West apartment blocks and common property — scoped for strata managers and committees, staged access, fully insured. Fixed-price quotes. Call 0474 164 221.",
@@ -349,7 +349,7 @@
     "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T09:51:05.158Z",
     "updatedBy": "derek"
   },
   {
