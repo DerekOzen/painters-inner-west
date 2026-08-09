@@ -306,7 +306,7 @@
   },
   {
     "id": "pg-20",
-    "path": "/painting-services-inner-west-licensed-insured-lic-315254c",
+    "path": "/services",
     "type": "page",
     "title": "Painting Services Inner West | Licensed & Insured | Lic. 315254C",
     "seoTitle": "Painting Services Inner West | Licensed & Insured | Lic. 315254C",
@@ -314,11 +314,12 @@
     "layout": "mockup",
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
-    "updatedBy": "derek"
+    "updatedAt": "2026-08-09T10:08:05.113Z",
+    "updatedBy": "derek",
+    "category": "Services"
   },
   {
     "id": "pg-21",
