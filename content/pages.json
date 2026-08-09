@@ -18,7 +18,7 @@
   },
   {
     "id": "pg-2",
-    "path": "/about-painters-inner-west-owner-bobby-nojad-lic-315254c",
+    "path": "/about-us",
     "type": "page",
     "title": "About Painters Inner West | Owner Bobby Nojad | Lic. 315254C",
     "seoTitle": "About Painters Inner West | Owner Bobby Nojad | Lic. 315254C",
@@ -26,10 +26,10 @@
     "layout": "mockup",
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-09T10:07:24.999Z",
     "updatedBy": "derek"
   },
   {
