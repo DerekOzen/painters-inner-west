@@ -516,7 +516,7 @@
   },
   {
     "id": "pg-33",
-    "path": "/areas-we-service-inner-west-suburbs-we-paint-lic-315254c",
+    "path": "/locations/inner-west",
     "type": "location",
     "title": "Areas We Service | Inner West Suburbs We Paint | Lic. 315254C",
     "seoTitle": "Areas We Service | Inner West Suburbs We Paint | Lic. 315254C",
@@ -524,10 +524,10 @@
     "layout": "mockup",
     "headerPartId": null,
     "footerPartId": null,
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-10T04:11:51.391Z",
+    "updatedAt": "2026-08-10T04:24:03.829Z",
     "updatedBy": "derek"
   },
   {
