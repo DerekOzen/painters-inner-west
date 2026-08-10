@@ -258,7 +258,7 @@
   },
   {
     "id": "pg-17",
-    "path": "/request-a-free-painting-quote-painters-inner-west",
+    "path": "/request-a-quote",
     "type": "page",
     "title": "Request a Free Painting Quote | Painters Inner West",
     "seoTitle": "Request a Free Painting Quote | Painters Inner West",
@@ -266,10 +266,10 @@
     "layout": "mockup",
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-10T04:04:28.996Z",
     "updatedBy": "derek"
   },
   {
