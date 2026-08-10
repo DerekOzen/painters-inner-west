@@ -564,7 +564,7 @@
   },
   {
     "id": "pg-36",
-    "path": "/painters-sydenham-local-licensed-insured-lic-315254c",
+    "path": "/locations/sydenham",
     "type": "location",
     "title": "Painters Sydenham | Local, Licensed & Insured | Lic. 315254C",
     "seoTitle": "Painters Sydenham | Local, Licensed & Insured | Lic. 315254C",
@@ -572,10 +572,10 @@
     "layout": "mockup",
     "headerPartId": null,
     "footerPartId": null,
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-10T04:11:51.391Z",
+    "updatedAt": "2026-08-10T04:19:55.084Z",
     "updatedBy": "derek"
   }
 ]
