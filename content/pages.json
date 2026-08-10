@@ -452,7 +452,7 @@
   },
   {
     "id": "pg-29",
-    "path": "/painters-croydon-local-licensed-insured-lic-315254c",
+    "path": "/locations/croydon",
     "type": "location",
     "title": "Painters Croydon | Local, Licensed & Insured | Lic. 315254C",
     "seoTitle": "Painters Croydon | Local, Licensed & Insured | Lic. 315254C",
@@ -460,10 +460,10 @@
     "layout": "mockup",
     "headerPartId": null,
     "footerPartId": null,
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-10T04:11:51.391Z",
+    "updatedAt": "2026-08-10T04:29:50.002Z",
     "updatedBy": "derek"
   },
   {
