@@ -146,7 +146,7 @@
   },
   {
     "id": "pg-10",
-    "path": "/how-to-choose-a-painter-in-the-inner-west-painters-inner-west",
+    "path": "/blog/how-to-choose-a-painter-in-the-inner-west-painters-inner-west",
     "type": "post",
     "title": "How to Choose a Painter in the Inner West | Painters Inner West",
     "seoTitle": "How to Choose a Painter in the Inner West | Painters Inner West",
@@ -154,10 +154,10 @@
     "layout": "mockup",
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:43:38.488Z",
+    "updatedAt": "2026-08-10T04:06:04.362Z",
     "updatedBy": "derek"
   },
   {
