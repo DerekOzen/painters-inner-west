@@ -98,7 +98,7 @@
   },
   {
     "id": "pg-7",
-    "path": "/painting-faqs-painters-inner-west-lic-315254c",
+    "path": "/faqs",
     "type": "page",
     "title": "Painting FAQs | Painters Inner West | Lic. 315254C",
     "seoTitle": "Painting FAQs | Painters Inner West | Lic. 315254C",
@@ -106,10 +106,10 @@
     "layout": "mockup",
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:41:58.412Z",
+    "updatedAt": "2026-08-10T02:35:52.892Z",
     "updatedBy": "derek"
   },
   {
