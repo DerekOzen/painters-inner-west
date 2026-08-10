@@ -179,7 +179,7 @@
   {
     "id": "pg-12",
     "path": "/painting-advice",
-    "type": "post",
+    "type": "page",
     "title": "Painting Advice & Guides | Painters Inner West",
     "seoTitle": "Painting Advice & Guides | Painters Inner West",
     "seoDescription": "Practical painting advice and guides for Inner West homeowners — choosing a painter, heritage homes, when to repaint and more. From Painters Inner West.",
@@ -189,8 +189,9 @@
     "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-10T04:08:19.294Z",
-    "updatedBy": "derek"
+    "updatedAt": "2026-08-10T04:09:19.392Z",
+    "updatedBy": "derek",
+    "category": "Other"
   },
   {
     "id": "pg-13",
