@@ -178,7 +178,7 @@
   },
   {
     "id": "pg-12",
-    "path": "/painting-advice-guides-painters-inner-west",
+    "path": "/painting-advice",
     "type": "post",
     "title": "Painting Advice & Guides | Painters Inner West",
     "seoTitle": "Painting Advice & Guides | Painters Inner West",
@@ -186,10 +186,10 @@
     "layout": "mockup",
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-09T09:43:38.488Z",
+    "updatedAt": "2026-08-10T04:08:19.294Z",
     "updatedBy": "derek"
   },
   {
