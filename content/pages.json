@@ -468,7 +468,7 @@
   },
   {
     "id": "pg-30",
-    "path": "/painters-dulwich-hill-local-licensed-insured-lic-315254c",
+    "path": "/locations/dulwich-hill",
     "type": "location",
     "title": "Painters Dulwich Hill | Local, Licensed & Insured | Lic. 315254C",
     "seoTitle": "Painters Dulwich Hill | Local, Licensed & Insured | Lic. 315254C",
@@ -476,10 +476,10 @@
     "layout": "mockup",
     "headerPartId": null,
     "footerPartId": null,
-    "status": "draft",
+    "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-10T04:11:51.391Z",
+    "updatedAt": "2026-08-10T04:29:57.847Z",
     "updatedBy": "derek"
   },
   {
