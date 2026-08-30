@@ -187,10 +187,10 @@
     "layout": "mockup",
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
-    "status": "deleted",
+    "status": "draft",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-30T21:55:04.116Z",
+    "updatedAt": "2026-08-30T21:55:18.522Z",
     "updatedBy": "derek",
     "category": "Blog",
     "isHome": false
