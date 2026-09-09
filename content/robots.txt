@@ -1,0 +1,35 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://paintersinnerwest.com.au/sitemap.xml
+
+# --- AI / LLM crawler rules ---
+
+User-agent: GPTBot
+Disallow: /wp-content/uploads/wpforms/
+Allow: /
+
+User-agent: ChatGPT-User
+Disallow: /wp-content/uploads/wpforms/
+Allow: /
+
+User-agent: ClaudeBot
+Disallow: /wp-content/uploads/wpforms/
+Allow: /
+
+User-agent: anthropic-ai
+Disallow: /wp-content/uploads/wpforms/
+Allow: /
+
+User-agent: Google-Extended
+Disallow: /wp-content/uploads/wpforms/
+Allow: /
+
+User-agent: CCBot
+Disallow: /wp-content/uploads/wpforms/
+Allow: /
+
+User-agent: PerplexityBot
+Disallow: /wp-content/uploads/wpforms/
+Allow: /
