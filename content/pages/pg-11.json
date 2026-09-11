@@ -89,172 +89,206 @@
   "body": "",
   "_schemas": [
     {
-      "type": "LocalBusiness",
+      "type": "Custom",
       "data": {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "@id": "https://paintersinnerwest.com.au/#business",
-        "name": "Painters Inner West",
-        "url": "https://paintersinnerwest.com.au",
-        "telephone": "0474 164 221",
-        "image": "https://paintersinnerwest.com.au/images/logo.png",
-        "priceRange": "$$",
-        "areaServed": [
+        "@context": "https://schema.org",
+        "@graph": [
           {
-            "@type": "Place",
-            "name": "Marrickville, NSW"
+            "@type": [
+              "HousePainter",
+              "LocalBusiness"
+            ],
+            "@id": "https://paintersinnerwest.com.au/#business",
+            "name": "Painters Inner West",
+            "url": "https://paintersinnerwest.com.au/",
+            "image": "https://paintersinnerwest.com.au/logo.png",
+            "logo": "https://paintersinnerwest.com.au/logo.png",
+            "telephone": "0474 164 221",
+            "priceRange": "$$",
+            "description": "Licensed, insured painters with 20+ years across Sydney's Inner West - residential, commercial, strata and heritage painting.",
+            "founder": {
+              "@type": "Person",
+              "name": "Bobby Nojad",
+              "jobTitle": "Owner & Painter"
+            },
+            "areaServed": [
+              {
+                "@type": "Place",
+                "name": "Marrickville, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Leichhardt, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Balmain, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Newtown, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Ashfield, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Dulwich Hill, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Annandale, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Sydenham, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Glebe, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Croydon, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Burwood, NSW"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Inner West, Sydney",
+              "addressRegion": "NSW",
+              "addressCountry": "AU"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -33.8983,
+              "longitude": 151.155
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "07:00",
+                "closes": "17:00"
+              }
+            ],
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "name": "ABN",
+                "value": "77 675 197 136"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "NSW Painter & Decorator Licence",
+                "value": "315254C"
+              }
+            ]
           },
           {
-            "@type": "Place",
-            "name": "Leichhardt, NSW"
+            "@type": "WebSite",
+            "@id": "https://paintersinnerwest.com.au/#website",
+            "url": "https://paintersinnerwest.com.au/",
+            "name": "Painters Inner West",
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "inLanguage": "en-AU"
           },
           {
-            "@type": "Place",
-            "name": "Balmain, NSW"
+            "@type": "Service",
+            "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#service",
+            "serviceType": "Interior Painting",
+            "name": "Interior Painting in the Inner West",
+            "provider": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "Inner West, Sydney, NSW"
+            },
+            "url": "https://paintersinnerwest.com.au/services/interior-house-painting/"
           },
           {
-            "@type": "Place",
-            "name": "Newtown, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Ashfield, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Dulwich Hill, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Annandale, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Sydenham, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Glebe, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Croydon, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Burwood, NSW"
-          }
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressRegion": "NSW",
-          "addressCountry": "AU",
-          "addressLocality": "Inner West Sydney"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -33.8983,
-          "longitude": 151.155
-        },
-        "founder": {
-          "@type": "Person",
-          "name": "Bobby Nojad"
-        }
-      }
-    },
-    {
-      "type": "Service",
-      "data": {
-        "@type": "Service",
-        "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#service",
-        "serviceType": "Interior Painting",
-        "provider": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Inner West, Sydney, NSW"
-        },
-        "name": "Interior Painting — Inner West"
-      }
-    },
-    {
-      "type": "WebPage",
-      "data": {
-        "@type": "WebPage",
-        "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#webpage",
-        "url": "https://paintersinnerwest.com.au/services/interior-house-painting/",
-        "name": "Interior Painters Inner West | Walls, Ceilings & Trims | Lic. 315254C",
-        "isPartOf": {
-          "@id": "https://paintersinnerwest.com.au/#website"
-        },
-        "about": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "inLanguage": "en-AU",
-        "breadcrumb": {
-          "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#breadcrumb"
-        }
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "data": {
-        "@type": "BreadcrumbList",
-        "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://paintersinnerwest.com.au/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Painting Services",
-            "item": "https://paintersinnerwest.com.au/services/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Interior Painting",
-            "item": "https://paintersinnerwest.com.au/services/interior-house-painting/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "FAQPage",
-      "data": {
-        "@type": "FAQPage",
-        "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can you paint just one room or feature wall?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Absolutely — plenty of our interior work is a single room, a feature wall, a hallway or a freshly renovated space. You get the same prep and fixed-price approach whether it's one wall or the whole house."
+            "@type": "WebPage",
+            "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#webpage",
+            "url": "https://paintersinnerwest.com.au/services/interior-house-painting/",
+            "name": "Interior Painters Inner West | Walls, Ceilings & Trims | Lic. 315254C",
+            "isPartOf": {
+              "@id": "https://paintersinnerwest.com.au/#website"
+            },
+            "about": {
+              "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#breadcrumb"
+            },
+            "inLanguage": "en-AU",
+            "hasPart": {
+              "@type": "FAQPage",
+              "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#faq",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Can you paint just one room or feature wall?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely — plenty of our interior work is a single room, a feature wall, a hallway or a freshly renovated space. You get the same prep and fixed-price approach whether it's one wall or the whole house."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How many coats of paint do you apply?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Two coats over a prepared, primed surface is our standard for walls and ceilings. Strong colour changes or bare patches may need an extra coat or a tinted undercoat, which we allow for in the quote so there are no surprises."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Will the paint smell? We have kids and pets.",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We use low-VOC, low-odour interior paints wherever possible, and keep rooms ventilated. Most families stay home throughout, and rooms are back in use the same or next day."
+                  }
+                }
+              ]
             }
           },
           {
-            "@type": "Question",
-            "name": "How many coats of paint do you apply?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Two coats over a prepared, primed surface is our standard for walls and ceilings. Strong colour changes or bare patches may need an extra coat or a tinted undercoat, which we allow for in the quote so there are no surprises."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Will the paint smell? We have kids and pets.",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We use low-VOC, low-odour interior paints wherever possible, and keep rooms ventilated. Most families stay home throughout, and rooms are back in use the same or next day."
-            }
+            "@type": "BreadcrumbList",
+            "@id": "https://paintersinnerwest.com.au/services/interior-house-painting/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://paintersinnerwest.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Painting Services",
+                "item": "https://paintersinnerwest.com.au/services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Interior Painting",
+                "item": "https://paintersinnerwest.com.au/services/interior-house-painting/"
+              }
+            ]
           }
         ]
       }
