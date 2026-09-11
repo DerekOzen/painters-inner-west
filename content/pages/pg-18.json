@@ -89,172 +89,206 @@
   "body": "",
   "_schemas": [
     {
-      "type": "LocalBusiness",
+      "type": "Custom",
       "data": {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "@id": "https://paintersinnerwest.com.au/#business",
-        "name": "Painters Inner West",
-        "url": "https://paintersinnerwest.com.au",
-        "telephone": "0474 164 221",
-        "image": "https://paintersinnerwest.com.au/images/logo.png",
-        "priceRange": "$$",
-        "areaServed": [
+        "@context": "https://schema.org",
+        "@graph": [
           {
-            "@type": "Place",
-            "name": "Marrickville, NSW"
+            "@type": [
+              "HousePainter",
+              "LocalBusiness"
+            ],
+            "@id": "https://paintersinnerwest.com.au/#business",
+            "name": "Painters Inner West",
+            "url": "https://paintersinnerwest.com.au/",
+            "image": "https://paintersinnerwest.com.au/logo.png",
+            "logo": "https://paintersinnerwest.com.au/logo.png",
+            "telephone": "0474 164 221",
+            "priceRange": "$$",
+            "description": "Licensed, insured painters with 20+ years across Sydney's Inner West - residential, commercial, strata and heritage painting.",
+            "founder": {
+              "@type": "Person",
+              "name": "Bobby Nojad",
+              "jobTitle": "Owner & Painter"
+            },
+            "areaServed": [
+              {
+                "@type": "Place",
+                "name": "Marrickville, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Leichhardt, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Balmain, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Newtown, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Ashfield, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Dulwich Hill, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Annandale, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Sydenham, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Glebe, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Croydon, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Burwood, NSW"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Inner West, Sydney",
+              "addressRegion": "NSW",
+              "addressCountry": "AU"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -33.8983,
+              "longitude": 151.155
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "07:00",
+                "closes": "17:00"
+              }
+            ],
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "name": "ABN",
+                "value": "77 675 197 136"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "NSW Painter & Decorator Licence",
+                "value": "315254C"
+              }
+            ]
           },
           {
-            "@type": "Place",
-            "name": "Leichhardt, NSW"
+            "@type": "WebSite",
+            "@id": "https://paintersinnerwest.com.au/#website",
+            "url": "https://paintersinnerwest.com.au/",
+            "name": "Painters Inner West",
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "inLanguage": "en-AU"
           },
           {
-            "@type": "Place",
-            "name": "Balmain, NSW"
+            "@type": "Service",
+            "@id": "https://paintersinnerwest.com.au/services/residential-painting/#service",
+            "serviceType": "Residential Painting",
+            "name": "Residential Painting in the Inner West",
+            "provider": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "Inner West, Sydney, NSW"
+            },
+            "url": "https://paintersinnerwest.com.au/services/residential-painting/"
           },
           {
-            "@type": "Place",
-            "name": "Newtown, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Ashfield, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Dulwich Hill, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Annandale, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Sydenham, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Glebe, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Croydon, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Burwood, NSW"
-          }
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressRegion": "NSW",
-          "addressCountry": "AU",
-          "addressLocality": "Inner West Sydney"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -33.8983,
-          "longitude": 151.155
-        },
-        "founder": {
-          "@type": "Person",
-          "name": "Bobby Nojad"
-        }
-      }
-    },
-    {
-      "type": "Service",
-      "data": {
-        "@type": "Service",
-        "@id": "https://paintersinnerwest.com.au/services/residential-painting/#service",
-        "serviceType": "Residential Painting",
-        "provider": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Inner West, Sydney, NSW"
-        },
-        "name": "Residential Painting — Inner West"
-      }
-    },
-    {
-      "type": "WebPage",
-      "data": {
-        "@type": "WebPage",
-        "@id": "https://paintersinnerwest.com.au/services/residential-painting/#webpage",
-        "url": "https://paintersinnerwest.com.au/services/residential-painting/",
-        "name": "Residential Painters Inner West | House Painting | Lic. 315254C",
-        "isPartOf": {
-          "@id": "https://paintersinnerwest.com.au/#website"
-        },
-        "about": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "inLanguage": "en-AU",
-        "breadcrumb": {
-          "@id": "https://paintersinnerwest.com.au/services/residential-painting/#breadcrumb"
-        }
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "data": {
-        "@type": "BreadcrumbList",
-        "@id": "https://paintersinnerwest.com.au/services/residential-painting/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://paintersinnerwest.com.au/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Painting Services",
-            "item": "https://paintersinnerwest.com.au/services/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Residential Painting",
-            "item": "https://paintersinnerwest.com.au/services/residential-painting/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "FAQPage",
-      "data": {
-        "@type": "FAQPage",
-        "@id": "https://paintersinnerwest.com.au/services/residential-painting/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How long does it take to repaint a house in the Inner West?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A single interior room is usually a day; a full interior repaint of a typical Inner West terrace runs three to five days, and a full exterior depends on size, access and how much prep or repair the surfaces need. We give you a realistic timeframe with your fixed-price quote."
+            "@type": "WebPage",
+            "@id": "https://paintersinnerwest.com.au/services/residential-painting/#webpage",
+            "url": "https://paintersinnerwest.com.au/services/residential-painting/",
+            "name": "Residential Painters Inner West | House Painting | Lic. 315254C",
+            "isPartOf": {
+              "@id": "https://paintersinnerwest.com.au/#website"
+            },
+            "about": {
+              "@id": "https://paintersinnerwest.com.au/services/residential-painting/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://paintersinnerwest.com.au/services/residential-painting/#breadcrumb"
+            },
+            "inLanguage": "en-AU",
+            "hasPart": {
+              "@type": "FAQPage",
+              "@id": "https://paintersinnerwest.com.au/services/residential-painting/#faq",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does it take to repaint a house in the Inner West?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A single interior room is usually a day; a full interior repaint of a typical Inner West terrace runs three to five days, and a full exterior depends on size, access and how much prep or repair the surfaces need. We give you a realistic timeframe with your fixed-price quote."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do I need to move out while you paint?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Most of our residential jobs are done while people keep living at home — we work room by room, protect your furniture and floors, and use low-odour paints so the house stays livable throughout."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What paint do you use on Inner West homes?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We work with premium Australian systems (such as Dulux, Taubmans and Haymes) and choose the product to suit the surface and exposure — a washable low-sheen for living areas, a flexible exterior membrane for weatherboard, and so on. We confirm the exact system in your quote."
+                  }
+                }
+              ]
             }
           },
           {
-            "@type": "Question",
-            "name": "Do I need to move out while you paint?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Most of our residential jobs are done while people keep living at home — we work room by room, protect your furniture and floors, and use low-odour paints so the house stays livable throughout."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What paint do you use on Inner West homes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We work with premium Australian systems (such as Dulux, Taubmans and Haymes) and choose the product to suit the surface and exposure — a washable low-sheen for living areas, a flexible exterior membrane for weatherboard, and so on. We confirm the exact system in your quote."
-            }
+            "@type": "BreadcrumbList",
+            "@id": "https://paintersinnerwest.com.au/services/residential-painting/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://paintersinnerwest.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Painting Services",
+                "item": "https://paintersinnerwest.com.au/services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Residential Painting",
+                "item": "https://paintersinnerwest.com.au/services/residential-painting/"
+              }
+            ]
           }
         ]
       }
