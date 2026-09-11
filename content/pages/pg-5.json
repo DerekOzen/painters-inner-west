@@ -89,172 +89,206 @@
   "body": "",
   "_schemas": [
     {
-      "type": "LocalBusiness",
+      "type": "Custom",
       "data": {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "@id": "https://paintersinnerwest.com.au/#business",
-        "name": "Painters Inner West",
-        "url": "https://paintersinnerwest.com.au",
-        "telephone": "0474 164 221",
-        "image": "https://paintersinnerwest.com.au/images/logo.png",
-        "priceRange": "$$",
-        "areaServed": [
+        "@context": "https://schema.org",
+        "@graph": [
           {
-            "@type": "Place",
-            "name": "Marrickville, NSW"
+            "@type": [
+              "HousePainter",
+              "LocalBusiness"
+            ],
+            "@id": "https://paintersinnerwest.com.au/#business",
+            "name": "Painters Inner West",
+            "url": "https://paintersinnerwest.com.au/",
+            "image": "https://paintersinnerwest.com.au/logo.png",
+            "logo": "https://paintersinnerwest.com.au/logo.png",
+            "telephone": "0474 164 221",
+            "priceRange": "$$",
+            "description": "Licensed, insured painters with 20+ years across Sydney's Inner West - residential, commercial, strata and heritage painting.",
+            "founder": {
+              "@type": "Person",
+              "name": "Bobby Nojad",
+              "jobTitle": "Owner & Painter"
+            },
+            "areaServed": [
+              {
+                "@type": "Place",
+                "name": "Marrickville, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Leichhardt, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Balmain, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Newtown, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Ashfield, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Dulwich Hill, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Annandale, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Sydenham, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Glebe, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Croydon, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Burwood, NSW"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Inner West, Sydney",
+              "addressRegion": "NSW",
+              "addressCountry": "AU"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -33.8983,
+              "longitude": 151.155
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "07:00",
+                "closes": "17:00"
+              }
+            ],
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "name": "ABN",
+                "value": "77 675 197 136"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "NSW Painter & Decorator Licence",
+                "value": "315254C"
+              }
+            ]
           },
           {
-            "@type": "Place",
-            "name": "Leichhardt, NSW"
+            "@type": "WebSite",
+            "@id": "https://paintersinnerwest.com.au/#website",
+            "url": "https://paintersinnerwest.com.au/",
+            "name": "Painters Inner West",
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "inLanguage": "en-AU"
           },
           {
-            "@type": "Place",
-            "name": "Balmain, NSW"
+            "@type": "Service",
+            "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#service",
+            "serviceType": "Decorative & Specialty Finishes",
+            "name": "Decorative & Specialty Finishes in the Inner West",
+            "provider": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "Inner West, Sydney, NSW"
+            },
+            "url": "https://paintersinnerwest.com.au/services/decorative-finishes/"
           },
           {
-            "@type": "Place",
-            "name": "Newtown, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Ashfield, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Dulwich Hill, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Annandale, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Sydenham, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Glebe, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Croydon, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Burwood, NSW"
-          }
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressRegion": "NSW",
-          "addressCountry": "AU",
-          "addressLocality": "Inner West Sydney"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -33.8983,
-          "longitude": 151.155
-        },
-        "founder": {
-          "@type": "Person",
-          "name": "Bobby Nojad"
-        }
-      }
-    },
-    {
-      "type": "Service",
-      "data": {
-        "@type": "Service",
-        "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#service",
-        "serviceType": "Decorative & Specialty Finishes",
-        "provider": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Inner West, Sydney, NSW"
-        },
-        "name": "Decorative & Specialty Finishes — Inner West"
-      }
-    },
-    {
-      "type": "WebPage",
-      "data": {
-        "@type": "WebPage",
-        "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#webpage",
-        "url": "https://paintersinnerwest.com.au/services/decorative-finishes/",
-        "name": "Decorative & Specialty Finishes Inner West | Venetian Plaster | Lic. 315254C",
-        "isPartOf": {
-          "@id": "https://paintersinnerwest.com.au/#website"
-        },
-        "about": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "inLanguage": "en-AU",
-        "breadcrumb": {
-          "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#breadcrumb"
-        }
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "data": {
-        "@type": "BreadcrumbList",
-        "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://paintersinnerwest.com.au/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Painting Services",
-            "item": "https://paintersinnerwest.com.au/services/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Decorative & Specialty Finishes",
-            "item": "https://paintersinnerwest.com.au/services/decorative-finishes/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "FAQPage",
-      "data": {
-        "@type": "FAQPage",
-        "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is Venetian plaster and where does it suit?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Venetian plaster is a lime-based finish burnished by hand to a smooth, marble-like surface with real depth. It suits feature walls, entries, fireplaces and hospitality spaces — anywhere you want a finish that catches the light and feels crafted."
+            "@type": "WebPage",
+            "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#webpage",
+            "url": "https://paintersinnerwest.com.au/services/decorative-finishes/",
+            "name": "Decorative & Specialty Finishes Inner West | Venetian Plaster | Lic. 315254C",
+            "isPartOf": {
+              "@id": "https://paintersinnerwest.com.au/#website"
+            },
+            "about": {
+              "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#breadcrumb"
+            },
+            "inLanguage": "en-AU",
+            "hasPart": {
+              "@type": "FAQPage",
+              "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#faq",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is Venetian plaster and where does it suit?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Venetian plaster is a lime-based finish burnished by hand to a smooth, marble-like surface with real depth. It suits feature walls, entries, fireplaces and hospitality spaces — anywhere you want a finish that catches the light and feels crafted."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I see a sample before committing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Always. Specialty finishes vary with colour, sheen and technique, so we prepare physical samples for you to approve before we touch the wall — you know exactly what you're getting."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is microcement suitable for bathrooms and benchtops?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — microcement is a seamless, water-resistant finish that works beautifully on bathroom walls, floors, benchtops and feature areas, giving a continuous concrete-look surface without tiles or grout lines."
+                  }
+                }
+              ]
             }
           },
           {
-            "@type": "Question",
-            "name": "Can I see a sample before committing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Always. Specialty finishes vary with colour, sheen and technique, so we prepare physical samples for you to approve before we touch the wall — you know exactly what you're getting."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is microcement suitable for bathrooms and benchtops?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes — microcement is a seamless, water-resistant finish that works beautifully on bathroom walls, floors, benchtops and feature areas, giving a continuous concrete-look surface without tiles or grout lines."
-            }
+            "@type": "BreadcrumbList",
+            "@id": "https://paintersinnerwest.com.au/services/decorative-finishes/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://paintersinnerwest.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Painting Services",
+                "item": "https://paintersinnerwest.com.au/services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Decorative & Specialty Finishes",
+                "item": "https://paintersinnerwest.com.au/services/decorative-finishes/"
+              }
+            ]
           }
         ]
       }
