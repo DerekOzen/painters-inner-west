@@ -35,163 +35,172 @@
   "body": "",
   "_schemas": [
     {
-      "type": "HousePainter",
+      "type": "Custom",
       "data": {
-        "@type": [
-          "HousePainter",
-          "LocalBusiness"
-        ],
-        "@id": "https://paintersinnerwest.com.au/#business",
-        "name": "Painters Inner West",
-        "url": "https://paintersinnerwest.com.au",
-        "image": "https://paintersinnerwest.com.au/images/logo.png",
-        "logo": "https://paintersinnerwest.com.au/images/logo.png",
-        "telephone": "0474 164 221",
-        "priceRange": "$$",
-        "founder": {
-          "@id": "https://paintersinnerwest.com.au/#bobby"
-        },
-        "areaServed": [
+        "@context": "https://schema.org",
+        "@graph": [
           {
-            "@type": "Place",
-            "name": "Marrickville, NSW"
+            "@type": [
+              "HousePainter",
+              "LocalBusiness"
+            ],
+            "@id": "https://paintersinnerwest.com.au/#business",
+            "name": "Painters Inner West",
+            "url": "https://paintersinnerwest.com.au/",
+            "image": "https://paintersinnerwest.com.au/logo.png",
+            "logo": "https://paintersinnerwest.com.au/logo.png",
+            "telephone": "0474 164 221",
+            "priceRange": "$$",
+            "description": "Licensed, insured painters with 20+ years across Sydney's Inner West - residential, commercial, strata and heritage painting.",
+            "founder": {
+              "@type": "Person",
+              "name": "Bobby Nojad",
+              "jobTitle": "Owner & Painter"
+            },
+            "areaServed": [
+              {
+                "@type": "Place",
+                "name": "Marrickville, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Leichhardt, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Balmain, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Newtown, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Ashfield, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Dulwich Hill, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Annandale, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Sydenham, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Glebe, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Croydon, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Burwood, NSW"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Inner West, Sydney",
+              "addressRegion": "NSW",
+              "addressCountry": "AU"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -33.8983,
+              "longitude": 151.155
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "07:00",
+                "closes": "17:00"
+              }
+            ],
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "name": "ABN",
+                "value": "77 675 197 136"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "NSW Painter & Decorator Licence",
+                "value": "315254C"
+              }
+            ]
           },
           {
-            "@type": "Place",
-            "name": "Leichhardt, NSW"
+            "@type": "WebSite",
+            "@id": "https://paintersinnerwest.com.au/#website",
+            "url": "https://paintersinnerwest.com.au/",
+            "name": "Painters Inner West",
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "inLanguage": "en-AU"
           },
           {
-            "@type": "Place",
-            "name": "Balmain, NSW"
+            "@type": "CollectionPage",
+            "@id": "https://paintersinnerwest.com.au/painting-advice/#webpage",
+            "url": "https://paintersinnerwest.com.au/painting-advice/",
+            "name": "Painting Advice & Guides | Painters Inner West",
+            "isPartOf": {
+              "@id": "https://paintersinnerwest.com.au/#website"
+            },
+            "about": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "mainEntity": {
+              "@id": "https://paintersinnerwest.com.au/painting-advice/#blog"
+            },
+            "breadcrumb": {
+              "@id": "https://paintersinnerwest.com.au/painting-advice/#breadcrumb"
+            },
+            "inLanguage": "en-AU"
           },
           {
-            "@type": "Place",
-            "name": "Newtown, NSW"
+            "@type": "Blog",
+            "@id": "https://paintersinnerwest.com.au/painting-advice/#blog",
+            "name": "Painting Advice & Guides",
+            "url": "https://paintersinnerwest.com.au/painting-advice/",
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "inLanguage": "en-AU"
           },
           {
-            "@type": "Place",
-            "name": "Ashfield, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Dulwich Hill, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Annandale, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Sydenham, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Glebe, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Croydon, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Burwood, NSW"
-          }
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressRegion": "NSW",
-          "addressLocality": "Inner West, Sydney",
-          "addressCountry": "AU"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -33.8983,
-          "longitude": 151.155
-        },
-        "identifier": [
-          {
-            "@type": "PropertyValue",
-            "name": "ABN",
-            "value": "77 675 197 136"
-          },
-          {
-            "@type": "PropertyValue",
-            "name": "NSW Painter & Decorator Licence",
-            "value": "315254C"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Blog",
-      "data": {
-        "@type": "Blog",
-        "@id": "https://paintersinnerwest.com.au/painting-advice/#blog",
-        "name": "Painting Advice — Painters Inner West",
-        "publisher": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "blogPost": [
-          {
-            "@type": "BlogPosting",
-            "@id": "https://paintersinnerwest.com.au/painting-advice/how-to-choose-painter-inner-west/#article",
-            "headline": "How to Choose a Painter in Sydney’s Inner West",
-            "url": "https://paintersinnerwest.com.au/painting-advice/how-to-choose-painter-inner-west/"
-          },
-          {
-            "@type": "BlogPosting",
-            "@id": "https://paintersinnerwest.com.au/painting-advice/painting-heritage-homes-inner-west/#article",
-            "headline": "Painting Heritage Homes in the Inner West",
-            "url": "https://paintersinnerwest.com.au/painting-advice/painting-heritage-homes-inner-west/"
-          },
-          {
-            "@type": "BlogPosting",
-            "@id": "https://paintersinnerwest.com.au/painting-advice/signs-your-home-needs-repainting/#article",
-            "headline": "7 Signs Your Home Needs Repainting",
-            "url": "https://paintersinnerwest.com.au/painting-advice/signs-your-home-needs-repainting/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "WebPage",
-      "data": {
-        "@type": "WebPage",
-        "@id": "https://paintersinnerwest.com.au/painting-advice/#webpage",
-        "url": "https://paintersinnerwest.com.au/painting-advice/",
-        "name": "Painting Advice & Guides",
-        "isPartOf": {
-          "@id": "https://paintersinnerwest.com.au/#website"
-        },
-        "about": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "publisher": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "inLanguage": "en-AU",
-        "breadcrumb": {
-          "@id": "https://paintersinnerwest.com.au/painting-advice/#breadcrumb"
-        }
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "data": {
-        "@type": "BreadcrumbList",
-        "@id": "https://paintersinnerwest.com.au/painting-advice/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://paintersinnerwest.com.au/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Painting Advice",
-            "item": "https://paintersinnerwest.com.au/painting-advice/"
+            "@type": "BreadcrumbList",
+            "@id": "https://paintersinnerwest.com.au/painting-advice/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://paintersinnerwest.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Painting Advice",
+                "item": "https://paintersinnerwest.com.au/painting-advice/"
+              }
+            ]
           }
         ]
       }
