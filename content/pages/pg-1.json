@@ -184,248 +184,238 @@
   "body": "",
   "_schemas": [
     {
-      "type": "HousePainter",
+      "type": "Custom",
       "data": {
-        "@type": [
-          "HousePainter",
-          "LocalBusiness"
-        ],
-        "@id": "https://paintersinnerwest.com.au/#business",
-        "name": "Painters Inner West",
-        "url": "https://paintersinnerwest.com.au",
-        "image": "https://paintersinnerwest.com.au/logo.png",
-        "logo": "https://paintersinnerwest.com.au/logo.png",
-        "telephone": "0474 164 221",
-        "priceRange": "$$",
-        "founder": {
-          "@id": "https://paintersinnerwest.com.au/#bobby"
-        },
-        "areaServed": [
+        "@context": "https://schema.org",
+        "@graph": [
           {
-            "@type": "Place",
-            "name": "Marrickville, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Leichhardt, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Balmain, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Newtown, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Ashfield, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Dulwich Hill, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Annandale, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Sydenham, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Glebe, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Croydon, NSW"
-          },
-          {
-            "@type": "Place",
-            "name": "Burwood, NSW"
-          }
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressRegion": "NSW",
-          "addressLocality": "Inner West, Sydney",
-          "addressCountry": "AU"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -33.8983,
-          "longitude": 151.155
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday"
+            "@type": [
+              "HousePainter",
+              "LocalBusiness"
             ],
-            "opens": "07:00",
-            "closes": "17:00"
-          }
-        ],
-        "identifier": [
-          {
-            "@type": "PropertyValue",
-            "name": "ABN",
-            "value": "77 675 197 136"
+            "@id": "https://paintersinnerwest.com.au/#business",
+            "name": "Painters Inner West",
+            "url": "https://paintersinnerwest.com.au/",
+            "image": "https://paintersinnerwest.com.au/logo.png",
+            "logo": "https://paintersinnerwest.com.au/logo.png",
+            "telephone": "0474 164 221",
+            "priceRange": "$$",
+            "description": "Licensed, insured painters with 20+ years across Sydney's Inner West - residential, commercial, strata and heritage painting.",
+            "founder": {
+              "@id": "https://paintersinnerwest.com.au/#bobby"
+            },
+            "areaServed": [
+              {
+                "@type": "Place",
+                "name": "Marrickville, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Leichhardt, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Balmain, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Newtown, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Ashfield, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Dulwich Hill, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Annandale, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Sydenham, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Glebe, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Croydon, NSW"
+              },
+              {
+                "@type": "Place",
+                "name": "Burwood, NSW"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Inner West, Sydney",
+              "addressRegion": "NSW",
+              "addressCountry": "AU"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": -33.8983,
+              "longitude": 151.155
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "07:00",
+                "closes": "17:00"
+              }
+            ],
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "name": "ABN",
+                "value": "77 675 197 136"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "NSW Painter & Decorator Licence",
+                "value": "315254C"
+              }
+            ]
           },
           {
-            "@type": "PropertyValue",
-            "name": "NSW Painter & Decorator Licence",
-            "value": "315254C"
-          }
-        ],
-        "description": "Licensed, insured painters with 20+ years across Sydney's Inner West - residential, commercial, strata and heritage painting."
-      }
-    },
-    {
-      "type": "WebSite",
-      "data": {
-        "@type": "WebSite",
-        "@id": "https://paintersinnerwest.com.au/#website",
-        "url": "https://paintersinnerwest.com.au",
-        "name": "Painters Inner West",
-        "publisher": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "inLanguage": "en-AU"
-      }
-    },
-    {
-      "type": "Person",
-      "data": {
-        "@type": "Person",
-        "@id": "https://paintersinnerwest.com.au/#bobby",
-        "name": "Bobby Nojad",
-        "jobTitle": "Owner & Painter",
-        "worksFor": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "knowsAbout": [
-          "House painting",
-          "Heritage home painting",
-          "Commercial painting",
-          "Federation homes",
-          "Victorian terraces",
-          "Surface preparation"
-        ]
-      }
-    },
-    {
-      "type": "WebPage",
-      "data": {
-        "@type": "WebPage",
-        "@id": "https://paintersinnerwest.com.au/#webpage",
-        "url": "https://paintersinnerwest.com.au/",
-        "name": "Painters Inner West",
-        "isPartOf": {
-          "@id": "https://paintersinnerwest.com.au/#website"
-        },
-        "about": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "publisher": {
-          "@id": "https://paintersinnerwest.com.au/#business"
-        },
-        "inLanguage": "en-AU",
-        "breadcrumb": {
-          "@id": "https://paintersinnerwest.com.au/#breadcrumb"
-        }
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "data": {
-        "@type": "BreadcrumbList",
-        "@id": "https://paintersinnerwest.com.au/#breadcrumb",
-        "itemListElement": [
+            "@type": "Person",
+            "@id": "https://paintersinnerwest.com.au/#bobby",
+            "name": "Bobby Nojad",
+            "jobTitle": "Owner & Painter",
+            "worksFor": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "knowsAbout": [
+              "House painting",
+              "Heritage home painting",
+              "Commercial painting",
+              "Federation homes",
+              "Victorian terraces",
+              "Surface preparation"
+            ]
+          },
           {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://paintersinnerwest.com.au/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "FAQPage",
-      "data": {
-        "@type": "FAQPage",
-        "@id": "https://paintersinnerwest.com.au/#faq",
-        "mainEntity": [
+            "@type": "WebSite",
+            "@id": "https://paintersinnerwest.com.au/#website",
+            "url": "https://paintersinnerwest.com.au/",
+            "name": "Painters Inner West",
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "inLanguage": "en-AU"
+          },
           {
-            "@type": "Question",
-            "name": "Who are Painters Inner West?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Painters Inner West is an owner-operated painting business led by Bobby Nojad, with more than 20 years' experience painting homes and commercial premises across Sydney's Inner West. We're licensed (Lic. 315254C) and fully insured, and we specialise in the area's Federation, Victorian terrace and period homes as well as modern residential and commercial work."
+            "@type": "WebPage",
+            "@id": "https://paintersinnerwest.com.au/#webpage",
+            "url": "https://paintersinnerwest.com.au/",
+            "name": "Painters Inner West | Licensed, Insured Local Painters",
+            "isPartOf": {
+              "@id": "https://paintersinnerwest.com.au/#website"
+            },
+            "about": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "publisher": {
+              "@id": "https://paintersinnerwest.com.au/#business"
+            },
+            "inLanguage": "en-AU",
+            "breadcrumb": {
+              "@id": "https://paintersinnerwest.com.au/#breadcrumb"
+            },
+            "hasPart": {
+              "@type": "FAQPage",
+              "@id": "https://paintersinnerwest.com.au/#faq",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Who are Painters Inner West?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Painters Inner West is an owner-operated painting business led by Bobby Nojad, with more than 20 years' experience painting homes and commercial premises across Sydney's Inner West. We're licensed (Lic. 315254C) and fully insured, and we specialise in the area's Federation, Victorian terrace and period homes as well as modern residential and commercial work."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Which Inner West suburbs do you paint in?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We paint right across the Inner West - including Marrickville, Leichhardt, Balmain, Newtown, Ashfield, Dulwich Hill, Annandale, Sydenham and Glebe - plus adjacent areas such as Croydon and Burwood. If your property is in or around the Inner West, we can help."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do you provide fixed-price quotes?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Every quote is a clear, itemised fixed price based on an on-site inspection, so you know exactly what you're paying before we start - no vague estimates and no call-out fee."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are you licensed and insured?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes - we hold NSW Painter and Decorator Licence 315254C and carry full insurance, and we're happy to provide details on request."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do you paint heritage and Federation homes?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely - it's one of our specialities. The Inner West is full of Federation, Victorian terrace and Edwardian homes, and we prepare and paint them with the care and correct products these period properties need."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What paint brands do you use?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We work with leading Australian paint systems such as Dulux, Taubmans, Haymes and Wattyl, choosing the right product for each substrate, exposure and finish rather than a one-size-fits-all approach."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How much does painting cost in the Inner West?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It depends on the size of the job, the surfaces, how much preparation is needed and the number of coats. We give you a free, itemised fixed-price quote after seeing the property, and our painting price guide explains what drives the cost."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do you offer a workmanship warranty?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes - we stand behind our work with a workmanship warranty, and the premium paint systems we use carry their own manufacturer warranties when applied correctly."
+                  }
+                }
+              ]
             }
           },
           {
-            "@type": "Question",
-            "name": "Which Inner West suburbs do you paint in?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We paint right across the Inner West - including Marrickville, Leichhardt, Balmain, Newtown, Ashfield, Dulwich Hill, Annandale, Sydenham and Glebe - plus adjacent areas such as Croydon and Burwood. If your property is in or around the Inner West, we can help."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you provide fixed-price quotes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Every quote is a clear, itemised fixed price based on an on-site inspection, so you know exactly what you're paying before we start - no vague estimates and no call-out fee."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are you licensed and insured?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes - we hold NSW Painter and Decorator Licence 315254C and carry full insurance, and we're happy to provide details on request."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you paint heritage and Federation homes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Absolutely - it's one of our specialities. The Inner West is full of Federation, Victorian terrace and Edwardian homes, and we prepare and paint them with the care and correct products these period properties need."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What paint brands do you use?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We work with leading Australian paint systems such as Dulux, Taubmans, Haymes and Wattyl, choosing the right product for each substrate, exposure and finish rather than a one-size-fits-all approach."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does painting cost in the Inner West?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It depends on the size of the job, the surfaces, how much preparation is needed and the number of coats. We give you a free, itemised fixed-price quote after seeing the property, and our painting price guide explains what drives the cost."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you offer a workmanship warranty?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes - we stand behind our work with a workmanship warranty, and the premium paint systems we use carry their own manufacturer warranties when applied correctly."
-            }
+            "@type": "BreadcrumbList",
+            "@id": "https://paintersinnerwest.com.au/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://paintersinnerwest.com.au/"
+              }
+            ]
           }
         ]
       }
