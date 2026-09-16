@@ -12,7 +12,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"},{\"@type\":\"Place\",\"name\":\"Sydney, NSW\"},{\"@type\":\"Place\",\"name\":\"Annandale, NSW\"},{\"@type\":\"Place\",\"name\":\"Ashfield, NSW\"},{\"@type\":\"Place\",\"name\":\"Balmain, NSW\"},{\"@type\":\"Place\",\"name\":\"Burwood, NSW\"},{\"@type\":\"Place\",\"name\":\"Croydon, NSW\"},{\"@type\":\"Place\",\"name\":\"Dulwich Hill, NSW\"},{\"@type\":\"Place\",\"name\":\"Glebe, NSW\"},{\"@type\":\"Place\",\"name\":\"Leichhardt, NSW\"},{\"@type\":\"Place\",\"name\":\"Marrickville, NSW\"},{\"@type\":\"Place\",\"name\":\"Newtown, NSW\"},{\"@type\":\"Place\",\"name\":\"Sydenham, NSW\"}],\"description\":\"Licensed and insured owner-operated painters serving Sydney's Inner West, offering residential, commercial, strata, heritage, roof and decorative painting.\",\"founder\":{\"@id\":\"https://paintersinnerwest.com.au/#person-bobby-nojad\"},\"identifier\":[{\"@type\":\"PropertyValue\",\"name\":\"NSW Painter & Decorator Licence\",\"value\":\"315254C\"},{\"@type\":\"PropertyValue\",\"name\":\"ABN\",\"value\":\"77 675 197 136\"}],\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#person-bobby-nojad\",\"@type\":\"Person\",\"description\":\"Owner and operator of Painters Inner West with over 20 years of hands-on painting experience across Sydney's Inner West.\",\"jobTitle\":\"Owner & Licensed Painter\",\"knowsAbout\":[\"Residential painting\",\"Heritage and period-home painting\",\"Commercial painting\",\"Strata painting\"],\"name\":\"Bobby Nojad\",\"worksFor\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"}},{\"@id\":\"https://paintersinnerwest.com.au/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"description\":\"Licensed and insured Inner West painters with over 20 years of experience across residential, commercial, strata and heritage painting, offering fixed-price quotes.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Painters Inner West | Licensed, Insured Local Painters\",\"url\":\"https://paintersinnerwest.com.au/\"}]}",
       "hash": "32e0a52450e4a923e0edb90dfdfb713cd818358e9b129d463a64c937817b40b6",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -48,8 +48,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.439Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:35:59.686Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-00F08C8C",
@@ -60,7 +60,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"},{\"@type\":\"Place\",\"name\":\"Sydney, NSW\"},{\"@type\":\"Place\",\"name\":\"Annandale, NSW\"},{\"@type\":\"Place\",\"name\":\"Ashfield, NSW\"},{\"@type\":\"Place\",\"name\":\"Balmain, NSW\"},{\"@type\":\"Place\",\"name\":\"Burwood, NSW\"},{\"@type\":\"Place\",\"name\":\"Croydon, NSW\"},{\"@type\":\"Place\",\"name\":\"Dulwich Hill, NSW\"},{\"@type\":\"Place\",\"name\":\"Glebe, NSW\"},{\"@type\":\"Place\",\"name\":\"Leichhardt, NSW\"},{\"@type\":\"Place\",\"name\":\"Marrickville, NSW\"},{\"@type\":\"Place\",\"name\":\"Newtown, NSW\"},{\"@type\":\"Place\",\"name\":\"Sydenham, NSW\"}],\"description\":\"Licensed and insured owner-operated painters serving Sydney's Inner West, offering residential, commercial, strata, heritage, roof and decorative painting.\",\"founder\":{\"@id\":\"https://paintersinnerwest.com.au/#person-bobby-nojad\"},\"identifier\":[{\"@type\":\"PropertyValue\",\"name\":\"NSW Painter & Decorator Licence\",\"value\":\"315254C\"},{\"@type\":\"PropertyValue\",\"name\":\"ABN\",\"value\":\"77 675 197 136\"}],\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#person-bobby-nojad\",\"@type\":\"Person\",\"description\":\"Owner and operator of Painters Inner West with over 20 years of hands-on painting experience across Sydney's Inner West.\",\"jobTitle\":\"Owner & Licensed Painter\",\"knowsAbout\":[\"Residential painting\",\"Heritage and period-home painting\",\"Commercial painting\",\"Strata painting\"],\"name\":\"Bobby Nojad\",\"worksFor\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"}},{\"@id\":\"https://paintersinnerwest.com.au/about-us/#webpage\",\"@type\":\"AboutPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/#person-bobby-nojad\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/about-us/#breadcrumb\"},\"description\":\"Meet Bobby Nojad, the licensed owner-operator behind Painters Inner West, with over 20 years painting homes and businesses across Sydney's Inner West.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"mainEntity\":{\"@id\":\"https://paintersinnerwest.com.au/#person-bobby-nojad\"},\"name\":\"About Painters Inner West | Owner Bobby Nojad | Lic. 315254C\",\"url\":\"https://paintersinnerwest.com.au/about-us/\"},{\"@id\":\"https://paintersinnerwest.com.au/about-us/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/about-us/\",\"name\":\"About\",\"position\":2}]}]}",
       "hash": "c49393bbf95870bd19114cf239d566ade251ece8a4d22f7ab77474d23ccfc21f",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -96,8 +96,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.492Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:00.042Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-8A23ACAE",
@@ -108,7 +108,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/#webpage\",\"@type\":\"CollectionPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/#breadcrumb\"},\"description\":\"Painting services across Sydney's Inner West, including residential, commercial, strata, heritage, roof restoration and decorative finishes.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"mainEntity\":{\"@id\":\"https://paintersinnerwest.com.au/services/#itemlist\"},\"name\":\"Painting Services Inner West | Licensed & Insured | Lic. 315254C\",\"url\":\"https://paintersinnerwest.com.au/services/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/#itemlist\",\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/commercial-painting/\",\"name\":\"Commercial Painting\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/decorative-finishes/\",\"name\":\"Decorative & Specialty Finishes\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/\",\"name\":\"Exterior House Painting\",\"position\":3},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/heritage-painting/\",\"name\":\"Heritage & Period-Home Painting\",\"position\":4},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/interior-house-painting/\",\"name\":\"Interior House Painting\",\"position\":5},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/residential-painting/\",\"name\":\"Residential House Painting\",\"position\":6},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/\",\"name\":\"Roof Painting & Restoration\",\"position\":7},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/strata-painting/\",\"name\":\"Strata & Common Property Painting\",\"position\":8}],\"name\":\"Painting services across the Inner West\"},{\"@id\":\"https://paintersinnerwest.com.au/services/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2}]}]}",
       "hash": "5458dcb8d6912e315c5097f994105333295e7bb45ecfd14cedf3007560d38ac4",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -144,8 +144,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.545Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:01.166Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-17B0149B",
@@ -156,7 +156,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/commercial-painting/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Commercial painting for Inner West offices, shops, warehouses and retail fit-outs, scheduled around your trading hours and fully insured.\",\"name\":\"Commercial Painting\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Commercial painting\",\"url\":\"https://paintersinnerwest.com.au/services/commercial-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/commercial-painting/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/commercial-painting/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/commercial-painting/#breadcrumb\"},\"description\":\"Commercial painting for Inner West offices, shops, warehouses and retail fit-outs, scheduled around your trading hours and fully insured.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Commercial Painting Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/commercial-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/commercial-painting/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/commercial-painting/\",\"name\":\"Commercial Painting\",\"position\":3}]}]}",
       "hash": "2a629da778d4cce9b9c3314567c8abcaaf30f70998a95a905d6c74d8a0fdf307",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -192,8 +192,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.596Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:01.647Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-ED3211F3",
@@ -204,7 +204,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/decorative-finishes/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Decorative and specialty finishes across the Inner West, including Venetian plaster, polished plaster, limewash and microcement applied by hand.\",\"name\":\"Decorative & Specialty Finishes\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Decorative and specialty finishes\",\"url\":\"https://paintersinnerwest.com.au/services/decorative-finishes/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/decorative-finishes/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/decorative-finishes/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/decorative-finishes/#breadcrumb\"},\"description\":\"Decorative and specialty finishes across the Inner West, including Venetian plaster, polished plaster, limewash and microcement applied by hand.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Decorative & Specialty Finishes Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/decorative-finishes/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/decorative-finishes/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/decorative-finishes/\",\"name\":\"Decorative & Specialty Finishes\",\"position\":3}]}]}",
       "hash": "08fd5846f9db6c4f1a7e7805be299fcc5851fd5a0b7a313ae25bfc4528b90d17",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -240,8 +240,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.646Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:02.125Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-A01CD9F3",
@@ -252,7 +252,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Exterior house painting for Inner West homes, protecting weatherboard, render, brick, fascias and gutters against Sydney weather.\",\"name\":\"Exterior House Painting\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Exterior house painting\",\"url\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/#breadcrumb\"},\"description\":\"Exterior house painting for Inner West homes, protecting weatherboard, render, brick, fascias and gutters against Sydney weather.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Exterior House Painting Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/exterior-house-painting/\",\"name\":\"Exterior House Painting\",\"position\":3}]}]}",
       "hash": "a449f3f44b9ccf9913b9b4ffd95bd4991c27eb5ae18a838883e916e0333470fe",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -288,8 +288,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.695Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:02.604Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-FBD2FB97",
@@ -300,7 +300,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/heritage-painting/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Heritage and period-home painting for Inner West Federation and Victorian houses, using breathable systems and lead-safe practices.\",\"name\":\"Heritage & Period-Home Painting\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Heritage painting\",\"url\":\"https://paintersinnerwest.com.au/services/heritage-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/heritage-painting/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/heritage-painting/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/heritage-painting/#breadcrumb\"},\"description\":\"Heritage and period-home painting for Inner West Federation and Victorian houses, using breathable systems and lead-safe practices.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Heritage & Period-Home Painting Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/heritage-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/heritage-painting/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/heritage-painting/\",\"name\":\"Heritage & Period-Home Painting\",\"position\":3}]}]}",
       "hash": "65270f1708f2614457f4703094dab7b3721210094ee9a432bac12bb9c61b4bd5",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -336,8 +336,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.754Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:03.049Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-78CAA36A",
@@ -348,7 +348,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/interior-house-painting/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Interior painting for Inner West homes, covering walls, ceilings, trims and feature walls with low-dust preparation and sharp lines.\",\"name\":\"Interior House Painting\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Interior house painting\",\"url\":\"https://paintersinnerwest.com.au/services/interior-house-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/interior-house-painting/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/interior-house-painting/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/interior-house-painting/#breadcrumb\"},\"description\":\"Interior painting for Inner West homes, covering walls, ceilings, trims and feature walls with low-dust preparation and sharp lines.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Interior House Painting Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/interior-house-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/interior-house-painting/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/interior-house-painting/\",\"name\":\"Interior House Painting\",\"position\":3}]}]}",
       "hash": "cd8bf51a30a1d567164341cf05b55f93bde86108423430cbbdef412eddfc81f8",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -384,8 +384,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.806Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:03.417Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-15DD9B10",
@@ -396,7 +396,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/residential-painting/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Licensed residential house painting for Inner West homes, covering interior and exterior work with careful preparation and a lasting finish.\",\"name\":\"Residential House Painting\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Residential painting\",\"url\":\"https://paintersinnerwest.com.au/services/residential-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/residential-painting/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/residential-painting/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/residential-painting/#breadcrumb\"},\"description\":\"Licensed residential house painting for Inner West homes, covering interior and exterior work with careful preparation and a lasting finish.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Residential House Painting Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/residential-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/residential-painting/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/residential-painting/\",\"name\":\"Residential House Painting\",\"position\":3}]}]}",
       "hash": "ee3ef5e24a33c2079567f0e4eaee14d9968a6c151fdc09513833f3d4e044e24a",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -432,8 +432,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.865Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:03.851Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-8F8CDFF0",
@@ -444,7 +444,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Roof painting and restoration across the Inner West for tile and metal roofs, including cleaning, repairs, re-pointing and recoating.\",\"name\":\"Roof Painting & Restoration\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Roof painting and restoration\",\"url\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/#breadcrumb\"},\"description\":\"Roof painting and restoration across the Inner West for tile and metal roofs, including cleaning, repairs, re-pointing and recoating.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Roof Painting & Restoration Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/roof-painting-restoration/\",\"name\":\"Roof Painting & Restoration\",\"position\":3}]}]}",
       "hash": "bd8ebb6445f85e237a224bbbd92191873f66af8787284346fdbebbc0ccff55db",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -480,8 +480,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.911Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:04.549Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-F20B8588",
@@ -492,7 +492,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/strata-painting/#service\",\"@type\":\"Service\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Inner West, Sydney, NSW\"}],\"description\":\"Strata and common property painting for Inner West apartment blocks, scoped for strata managers and committees with staged access and full insurance.\",\"name\":\"Strata & Common Property Painting\",\"provider\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"serviceType\":\"Strata painting\",\"url\":\"https://paintersinnerwest.com.au/services/strata-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/strata-painting/#webpage\",\"@type\":\"WebPage\",\"about\":{\"@id\":\"https://paintersinnerwest.com.au/services/strata-painting/#service\"},\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/services/strata-painting/#breadcrumb\"},\"description\":\"Strata and common property painting for Inner West apartment blocks, scoped for strata managers and committees with staged access and full insurance.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"name\":\"Strata & Common Property Painting Inner West | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/services/strata-painting/\"},{\"@id\":\"https://paintersinnerwest.com.au/services/strata-painting/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/\",\"name\":\"Services\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/services/strata-painting/\",\"name\":\"Strata & Common Property Painting\",\"position\":3}]}]}",
       "hash": "59c53ff144fc10a92f87123a6b584cc04fe6e97535ed0fab3a235f94e2dda297",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -528,8 +528,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:18.961Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:05.205Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     },
     {
       "recordId": "SCHEMA-2B769E24",
@@ -540,7 +540,7 @@
       "jsonld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@id\":\"https://paintersinnerwest.com.au/#website\",\"@type\":\"WebSite\",\"inLanguage\":\"en-AU\",\"name\":\"Painters Inner West\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\",\"@type\":\"HousePainter\",\"name\":\"Painters Inner West\",\"telephone\":\"+61 474 164 221\",\"url\":\"https://paintersinnerwest.com.au/\"},{\"@id\":\"https://paintersinnerwest.com.au/painting-advice/#webpage\",\"@type\":\"CollectionPage\",\"breadcrumb\":{\"@id\":\"https://paintersinnerwest.com.au/painting-advice/#breadcrumb\"},\"description\":\"Practical painting advice and guides for Inner West homeowners, covering choosing a painter, heritage homes and when to repaint.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://paintersinnerwest.com.au/#website\"},\"mainEntity\":{\"@id\":\"https://paintersinnerwest.com.au/painting-advice/#blog\"},\"name\":\"Painting Advice & Guides | Painters Inner West\",\"url\":\"https://paintersinnerwest.com.au/painting-advice/\"},{\"@id\":\"https://paintersinnerwest.com.au/painting-advice/#blog\",\"@type\":\"Blog\",\"inLanguage\":\"en-AU\",\"name\":\"Painting Advice & Guides\",\"publisher\":{\"@id\":\"https://paintersinnerwest.com.au/#localbusiness\"},\"url\":\"https://paintersinnerwest.com.au/painting-advice/\"},{\"@id\":\"https://paintersinnerwest.com.au/painting-advice/#breadcrumb\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https://paintersinnerwest.com.au/painting-advice/\",\"name\":\"Painting Advice\",\"position\":2}]}]}",
       "hash": "f9d1ba2cf511d50bef3cca860e8d2bb99d99603b30f34e0697983640f01b7421",
       "suppress": true,
-      "suppressionStatus": "FAIL",
+      "suppressionStatus": "PASS",
       "issueSeverity": "NONE",
       "issueCode": "NONE",
       "schemaVersion": "1.1",
@@ -576,8 +576,8 @@
         "source_references": "live-page-audit:2026-09-16;sitemap:paintersinnerwest.com.au",
         "schema_version": "1.1"
       },
-      "verifiedAt": "2026-09-16T00:35:19.011Z",
-      "verifyInfo": "0 total · 0 ours · 0 stray"
+      "verifiedAt": "2026-09-16T00:36:05.849Z",
+      "verifyInfo": "1 total · 1 ours · 0 stray"
     }
   ]
 }
