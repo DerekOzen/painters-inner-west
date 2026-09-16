@@ -1,0 +1,59 @@
+{
+  "batches": [
+    {
+      "batchId": "csg-mu3d8egz-i40t",
+      "at": "2026-09-16T00:31:45.731Z",
+      "count": 12,
+      "changes": [
+        {
+          "path": "/",
+          "newRecordId": "SCHEMA-1C961194"
+        },
+        {
+          "path": "/about-us",
+          "newRecordId": "SCHEMA-00F08C8C"
+        },
+        {
+          "path": "/services",
+          "newRecordId": "SCHEMA-8A23ACAE"
+        },
+        {
+          "path": "/services/commercial-painting",
+          "newRecordId": "SCHEMA-17B0149B"
+        },
+        {
+          "path": "/services/decorative-finishes",
+          "newRecordId": "SCHEMA-ED3211F3"
+        },
+        {
+          "path": "/services/exterior-house-painting",
+          "newRecordId": "SCHEMA-A01CD9F3"
+        },
+        {
+          "path": "/services/heritage-painting",
+          "newRecordId": "SCHEMA-FBD2FB97"
+        },
+        {
+          "path": "/services/interior-house-painting",
+          "newRecordId": "SCHEMA-78CAA36A"
+        },
+        {
+          "path": "/services/residential-painting",
+          "newRecordId": "SCHEMA-15DD9B10"
+        },
+        {
+          "path": "/services/roof-painting-restoration",
+          "newRecordId": "SCHEMA-8F8CDFF0"
+        },
+        {
+          "path": "/services/strata-painting",
+          "newRecordId": "SCHEMA-F20B8588"
+        },
+        {
+          "path": "/painting-advice",
+          "newRecordId": "SCHEMA-2B769E24"
+        }
+      ]
+    }
+  ]
+}
