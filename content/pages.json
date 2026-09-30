@@ -464,8 +464,10 @@
     "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-20T05:30:29.762Z",
-    "updatedBy": "kritesh"
+    "updatedAt": "2026-09-30T22:56:03.617Z",
+    "updatedBy": "gabriel",
+    "featuredImage": "/uploads/painters-burwood-inner-west-b4f39548.jpg",
+    "featuredImageAlt": "Painter working on a home in Burwood, Inner West Sydney"
   },
   {
     "id": "pg-29",
