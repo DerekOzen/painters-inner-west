@@ -385,8 +385,10 @@
     "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-09-11T05:30:58.545Z",
-    "updatedBy": "sebastian"
+    "updatedAt": "2026-09-30T23:00:00.313Z",
+    "updatedBy": "gabriel",
+    "featuredImage": "/uploads/strata-painters-inner-west-apartment-blo-99b6a5ce.jpg",
+    "featuredImageAlt": "Strata painter working on the common-area stairwell of an Inner West apartment block"
   },
   {
     "id": "pg-23",
