@@ -590,8 +590,10 @@
     "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-20T06:00:24.669Z",
-    "updatedBy": "kritesh"
+    "updatedAt": "2026-09-30T22:57:16.541Z",
+    "updatedBy": "gabriel",
+    "featuredImage": "/uploads/painters-newtown-inner-west-a673bc1d.jpg",
+    "featuredImageAlt": "Painter working on a home in Newtown, Inner West Sydney"
   },
   {
     "id": "pg-36",
