@@ -335,9 +335,11 @@
     "status": "published",
     "createdAt": "2026-08-09T09:41:58.412Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-21T05:35:02.546Z",
-    "updatedBy": "kritesh",
-    "category": "Services"
+    "updatedAt": "2026-09-30T22:58:27.679Z",
+    "updatedBy": "gabriel",
+    "category": "Services",
+    "featuredImage": "/uploads/painting-services-inner-west-team-759328b0.jpg",
+    "featuredImageAlt": "Painters Inner West team working on a residential repaint in the Inner West"
   },
   {
     "id": "pg-21",
