@@ -518,8 +518,10 @@
     "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-20T05:49:35.716Z",
-    "updatedBy": "kritesh"
+    "updatedAt": "2026-09-30T22:56:39.484Z",
+    "updatedBy": "gabriel",
+    "featuredImage": "/uploads/painters-glebe-inner-west-88bd3d82.jpg",
+    "featuredImageAlt": "Painter working on a home in Glebe, Inner West Sydney"
   },
   {
     "id": "pg-32",
