@@ -10,11 +10,13 @@
     "headerPartId": "header-1",
     "footerPartId": "footer-1",
     "status": "published",
-    "updatedAt": "2026-09-11T05:10:05.294Z",
-    "updatedBy": "sebastian",
+    "updatedAt": "2026-09-30T22:54:33.278Z",
+    "updatedBy": "gabriel",
     "createdAt": "2026-08-09T09:40:39.303Z",
     "createdBy": "derek",
-    "isHome": true
+    "isHome": true,
+    "featuredImage": "/uploads/owner-operated-by-bobby-nojad-6fb8c7bd.jpg",
+    "featuredImageAlt": "Bobby Nojad, owner of Painters Inner West, painting a wall"
   },
   {
     "id": "pg-2",
