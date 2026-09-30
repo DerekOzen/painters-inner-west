@@ -410,8 +410,10 @@
     "status": "published",
     "createdAt": "2026-08-10T04:11:51.391Z",
     "createdBy": "derek",
-    "updatedAt": "2026-08-20T05:22:38.356Z",
-    "updatedBy": "kritesh"
+    "updatedAt": "2026-09-30T22:55:25.642Z",
+    "updatedBy": "gabriel",
+    "featuredImage": "/uploads/painters-annandale-inner-west-3023c24d.jpg",
+    "featuredImageAlt": "Painter working on a home in Annandale, Inner West Sydney"
   },
   {
     "id": "pg-26",
